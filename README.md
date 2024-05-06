@@ -17,7 +17,7 @@ Using `-h` flag provides detail on the use of the different commands available.
 `create` command produces required assets to deploy Alfresco Community in Kubernetes.
 
 ```bash
-$ ./alf-k8s create -h
+$ ./alf-opensearch create -h
 Alfresco OpenSearch Deployment CLI
 
 Usage:
@@ -42,7 +42,7 @@ Use "alf-opensearch [command] --help" for more information about a command.
 Run the command selecting the OpenSearch version to be deployed . Additional options can be set using any parameter value from *flags* list.
 
 ```bash
-$ ./alf-k8s create -i=true -v 2.13.0
+$ ./alf-opensearch create -i=true -v 2.13.0
 ```
 
 **Replying to prompts**
@@ -50,7 +50,7 @@ $ ./alf-k8s create -i=true -v 2.13.0
 Run the command using interactive mode.
 
 ```bash
-$ ./alf-k8s create
+$ ./alf-opensearch create
 ? Which OpenSearch version do you want to use? 2.13.0
 ```
 
